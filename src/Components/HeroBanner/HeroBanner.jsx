@@ -8,12 +8,12 @@ const HeroBanner = () => {
     items-center  gap-15 px-50 pt-30 pb-15 ">
       <div className="space-y-5">
         <div
-          className="badge badge-md 
-          bg-linear-to-r from-[#4F39F6] to-[#9514FA]
-             bg-clip-text text-transparent"
+          className="badge badge-md bg-[#E1E7FF] px-6 py-6 rounded-full
+          "
         >
           <img src={CircleIconHero} alt="" />
-          New: AI-Powered Tools Available
+          <span className="text-xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]
+             bg-clip-text text-transparent">New: AI-Powered Tools Available</span>
         </div>
         <h2 className="font-bold text-5xl text-[#101727]">
           Supercharge Your<br/> Digital Workflow
@@ -31,7 +31,7 @@ const HeroBanner = () => {
             bg-linear-to-r from-[#4F39F6] to-[#9514FA]
              bg-clip-text text-transparent"
           >
-            <img src={PlayIcon} alt="" srcset="" />
+            <img src={PlayIcon} alt="Play Icon"  />
             Watch Demo
           </button>
         </div>

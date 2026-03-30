@@ -1,6 +1,6 @@
 // import { IoAccessibilitySharp } from "react-icons/io5";
 // import { toast, ToastContainer } from 'react-toastify'
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import HeroBanner from "./Components/HeroBanner/HeroBanner";
 import NavBar from "./Components/NavBar/NavBar";
@@ -13,15 +13,25 @@ const toolsFetch =async ()=>{
 }
 function App() {
   //  const notify = () => toast("Hallo")
+  // const [selectedTools, setSelectedTools ] = useState([]);
+  // const totalPrice = selectedTools.reduce((sum , tool) => sum + tool.price,0 )
 const toolsPromis = toolsFetch()
   return (
+    
     < >
-      <NavBar></NavBar>
+      <NavBar 
+      // selectedTools={selectedTools}
+      //  setSelectedTools={setSelectedTools}
+       ></NavBar>
       <HeroBanner></HeroBanner>
       <Rating></Rating>
 
       <Suspense fallback={<span className="loading loading-bars loading-md"></span>}>
-        <SelectProducts toolsPromis = {toolsPromis}></SelectProducts>
+        <SelectProducts toolsPromis = {toolsPromis} 
+          // setSelectedTools={setSelectedTools}
+          // selectedTools={selectedTools}
+          // totalPrice={totalPrice}>
+        ></SelectProducts>
       </Suspense>
       {/* <IoAccessibilitySharp />  */}
       {/* <ToastContainer></ToastContainer> */}

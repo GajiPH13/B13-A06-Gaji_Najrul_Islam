@@ -3,7 +3,8 @@ import shopingCartImage from '../../assets/shopping-cart-01.png'
 const NavBar = () => {
     return (
         <div>
-            <div className="navbar fixed top-0 left-0 w-full z-50 bg-base-100 shadow-md px-50 py-4">
+            <div className="navbar fixed top-0 left-0 w-full z-50 
+            bg-base-100 shadow-md px-50 py-4">
         <div className="navbar-start">
           <div className="dropdown">
             <ul
@@ -55,7 +56,7 @@ const NavBar = () => {
         </div>
 
         <div className="navbar-end gap-4">
-          <img src={shopingCartImage}alt="Shoping Cart Image"  />
+          <p><span className='text-s text-red-500'>0</span><img className='w-full' src={shopingCartImage}alt="Shoping Cart Image"  /></p>
           <a className="btn border-none">Login</a>
           <a className="btn text-white rounded-full px-4 py-3
           bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Get Started</a>
