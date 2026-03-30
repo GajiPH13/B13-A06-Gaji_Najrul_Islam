@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Perfect for individuals looking to build their first professional resume.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "new",
+    "features": ["3 basic templates", "Export to PDF", "Manual ATS check"],
+    "icon": "sparkles",
+    "image": "https://i.ibb.co/rfQmvhXV/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Professional Monthly",
+    "description": "Full access to all premium design tools and AI writing assistants.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ premium templates", "AI bullet point generator", "Unlimited PDF exports", "Cover letter builder"],
+    "icon": "briefcase",
+    "image": "https://i.ibb.co/6chZ9jmK/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Elite Annual",
+    "description": "The ultimate career toolkit with long-term savings for job seekers.",
+    "price": 119.88,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": ["100+ templates", "ATS optimization", "LinkedIn profile audit", "Priority support", "Custom domain"],
+    "icon": "trophy",
+    "image": "https://i.ibb.co/nNbhFY5K/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Resume Refresh",
+    "description": "A quick one-time polish for your existing document.",
+    "price": 49.00,
+    "period": "one-time",
+    "tag": "Quick Fix",
+    "tagType": "new",
+    "features": ["Expert human review", "Keyword optimization", "24-hour delivery"],
+    "icon": "zap",
+    "image": "https://i.ibb.co/Kzbjv7pX/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "Growth Pro",
+    "description": "Designed for mid-level managers scaling their career path.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "popular",
+    "features": ["Salary negotiation guide", "Advanced ATS analytics", "Multi-format export", "Dark mode editor"],
+    "icon": "trending-up",
+    "image": "https://i.ibb.co/mrz6ypTf/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Executive Lifetime",
+    "description": "A lifetime of career support and template updates.",
+    "price": 299.00,
+    "period": "one-time",
+    "tag": "Exclusive",
+    "tagType": "best seller",
+    "features": ["Lifetime access", "All future templates", "1-on-1 coaching session", "White-label branding"],
+    "icon": "crown",
+    "image": "https://i.ibb.co/Kzbjv7pX/social-media.png"
+  }
+  
+]
