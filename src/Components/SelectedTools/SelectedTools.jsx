@@ -1,7 +1,8 @@
 import React from "react";
-
+import { toast } from 'react-toastify'
 const SelectedTools = ({ tools, handelToolRemove }) => {
 //   console.log(tools);
+const notifyRemove = () => toast("Removed from Cart")
   return (
     <div className="max-w-300 p-10 rounded-3xl ">
       <div className="">
@@ -17,7 +18,7 @@ const SelectedTools = ({ tools, handelToolRemove }) => {
             </div>
           </div>
           <div>
-            <button onClick={()=>handelToolRemove(tools)} className="btn text-red-500"> Remove</button>
+            <button onClick={()=>{handelToolRemove(tools); notifyRemove()}} className="btn text-red-500"> Remove</button>
           </div>
         </div>
       </div>
@@ -33,6 +34,7 @@ const SelectedTools = ({ tools, handelToolRemove }) => {
             Proceed to Checkout
           </button>
         </div> */}
+        
     </div>
   );
 };

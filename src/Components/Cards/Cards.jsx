@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import CheckIcon from "../../assets/Check.png";
+import { toast } from 'react-toastify'
 const Cards = ({ card, selectedTools, setSelectedTools }) => {
   const [isselected, setIsselected] = useState("Buy Now");
   const handelBuy = () => {
     setSelectedTools([...selectedTools, card]);
     setIsselected("has bought");
   };
+
+   const notify = () => toast("Added to Cart")
   return (
     <div>
       <div
@@ -37,7 +40,8 @@ const Cards = ({ card, selectedTools, setSelectedTools }) => {
         </div>
 
         <button
-          onClick={handelBuy}
+         
+          onClick={()=>{handelBuy(); notify()}}
           onMouseLeave={() => setIsselected("Buy Now")}
           className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
                     rounded-full w-full text-white"
@@ -59,6 +63,7 @@ const Cards = ({ card, selectedTools, setSelectedTools }) => {
           {card.tagType}
         </span>
       </div>
+      
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import SelectedTools from "../SelectedTools/SelectedTools";
 import ShopingCart from '../../assets/shopping-cart.png'
+import { toast } from 'react-toastify'
 const Cart = ({ selectedTools, setSelectedTools }) => {
   // console.log(selectedTools)
 
@@ -10,6 +11,8 @@ const Cart = ({ selectedTools, setSelectedTools }) => {
       const filteredTools = selectedTools.filter((selectedTool) => selectedTool.id !== tools.id);
       setSelectedTools(filteredTools);
   }
+
+  const notifyThanks = () => toast("Thank you for buying")
   return (
     <div>
       <h2 className="text-left ml-10 mt-5 font-bols text-2xl text-[#101727]">
@@ -46,7 +49,7 @@ const Cart = ({ selectedTools, setSelectedTools }) => {
         </div>
         <div>
           <button
-           onClick={()=> setSelectedTools([])}
+           onClick={()=>{ setSelectedTools([]);notifyThanks()}}
             className="btn w-full rounded-full 
         bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"
           >
@@ -54,6 +57,7 @@ const Cart = ({ selectedTools, setSelectedTools }) => {
           </button>
         </div>
       </div>
+      
     </div>
   );
 };

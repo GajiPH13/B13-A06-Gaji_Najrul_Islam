@@ -1,5 +1,7 @@
 import React from "react";
 import UserIcon from "../../assets/user.png";
+import Package from "../../assets/package.png";
+import Roket from "../../assets/rocket.png";
 const StepSection = () => {
   return (
     <div>
@@ -41,7 +43,7 @@ const StepSection = () => {
       >
         <div className="  flex flex-col justify-center items-center">
           <div className="mb-6 flex justify-center items-center w-25 h-25 rounded-full bg-linear-to-r from-[#7166c54c] to-[#9614fa53] ">
-            <img src={UserIcon} alt="" srcset="" />
+            <img src={Package} alt="" srcset="" />
           </div>
           <div className="text-center space-y-3">
             <h3 className="text-[#101727] text-xl">Choose Products</h3>
@@ -62,7 +64,7 @@ const StepSection = () => {
       >
         <div className="  flex flex-col justify-center items-center">
           <div className="mb-6 flex justify-center items-center w-25 h-25 rounded-full bg-linear-to-r from-[#7166c54c] to-[#9614fa53] ">
-            <img src={UserIcon} alt="" srcset="" />
+            <img src={Roket} alt="" srcset="" />
           </div>
           <div className="text-center space-y-3">
             <h3 className="text-[#101727] text-xl">Start Creating</h3>
