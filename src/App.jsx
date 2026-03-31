@@ -1,11 +1,13 @@
 // import { IoAccessibilitySharp } from "react-icons/io5";
 // import { toast, ToastContainer } from 'react-toastify'
-import { Suspense, useState } from "react";
+import { Suspense } from "react";
 import "./App.css";
 import HeroBanner from "./Components/HeroBanner/HeroBanner";
 import NavBar from "./Components/NavBar/NavBar";
 import Rating from "./Components/Rating/Rating";
 import SelectProducts from "./Components/SelectProducts/SelectProducts";
+import StepSection from "./Components/StepSection/StepSection";
+import PricingSection from "./Components/PricingSection/PricingSection";
 
 const toolsFetch =async ()=>{
   const res = await fetch('/public/cardData.json')
@@ -33,6 +35,8 @@ const toolsPromis = toolsFetch()
           // totalPrice={totalPrice}>
         ></SelectProducts>
       </Suspense>
+      <StepSection></StepSection>
+      <PricingSection></PricingSection>
       {/* <IoAccessibilitySharp />  */}
       {/* <ToastContainer></ToastContainer> */}
     </>
