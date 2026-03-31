@@ -13,7 +13,7 @@ import Footer from "./Components/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 
 const toolsFetch =async ()=>{
-  const res = await fetch('/public/cardData.json')
+  const res = await fetch('/cardData.json')
   return res.json()
 }
 function App() {
