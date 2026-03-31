@@ -12,8 +12,9 @@ const Cards = ({ card, selectedTools, setSelectedTools }) => {
   return (
     <div>
       <div
-        className="relative max-w-auto h-auto mb-1 p-6 text-left transition-transform duration-300 hover:scale-102
-                         border border-gray-200 shadow-md rounded-2xl space-y-6"
+        className="relative max-w-auto h-auto mb-1 p-6 
+        text-left transition-transform duration-300 hover:scale-102
+        border border-gray-200 shadow-md rounded-2xl space-y-6"
       >
         <div className="w-15 h-15  rounded-full bg-[#F2F2F2] flex justify-center items-center">
           <img className="mt-3 " src={card.image} alt="Product Image" />

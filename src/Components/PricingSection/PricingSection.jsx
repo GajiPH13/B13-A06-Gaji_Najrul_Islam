@@ -2,19 +2,19 @@ import React from "react";
 import CheckIcon from "../../assets/Check.png";
 const PricingSection = () => {
   return (
-    <div className="bg-white px-50 py-30  text-center max-w-400  mx-auto ">
-      <div className="text-center space-y-6">
+    <div className="bg-white mt-10   text-center max-w-400 px-6  mx-auto md:px-50 md:py-30">
+      <div className="text-center space-y-6 mb-10">
         <h2 className="font-bold text-[#101727] text-3xl">
           Simple, Transparent Pricing
         </h2>
-        <p className="text-[#627382]">
+        <p className="text-[#627382] ">
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="flex gap-6 mt-10 ">
+      <div className="px-6 grid grid-cols-1  md:grid-cols-3 gap-4">
         <div
-          className=" w-95 bg-[#F9FAFC] h-auto mb-1 p-6 text-left 
-                    border border-gray-200 shadow-md rounded-2xl space-y-6"
+          className="  bg-[#F9FAFC] h-auto mb-1 p-6 text-left 
+                    border border-gray-100 shadow-md rounded-2xl space-y-6"
         >
           <div className="space-y-2">
             <p className="text-2xl font-bold">Starter</p>
@@ -51,7 +51,7 @@ const PricingSection = () => {
           </button>
         </div>
         <div
-          className=" relative w-95 h-auto mb-1 p-6 text-left text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
+          className=" relative h-auto mb-1 p-6 text-left text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
                     border border-gray-200 shadow-md rounded-2xl space-y-6"
         >
           <div className=" absolute ml-25 -mt-10 badge text-[#BB4D00] bg-[#FEF3C6]">
@@ -100,7 +100,7 @@ const PricingSection = () => {
           </button>
         </div>
         <div
-          className=" w-95 h-auto mb-1 p-6 text-left 
+          className="  h-auto mb-1 p-6 text-left 
                     border border-gray-200 shadow-md rounded-2xl space-y-6"
         >
           <div className="space-y-2">

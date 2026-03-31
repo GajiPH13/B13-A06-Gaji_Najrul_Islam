@@ -1,12 +1,17 @@
 import React from 'react';
 import shopingCartImage from '../../assets/shopping-cart-01.png'
+import { GiHamburgerMenu } from "react-icons/gi";
 const NavBar = () => {
     return (
         <div>
             <div className="navbar fixed top-0 left-0 w-full z-50 
-            bg-base-100 shadow-md px-50 py-4">
+            bg-base-100 shadow-md px-4  md:px-12 lg:px-52 py-4">
         <div className="navbar-start">
           <div className="dropdown">
+            <div tabIndex={0} roll="button" 
+            className='btn btn-ghost lg:hidden'>
+              <GiHamburgerMenu />
+            </div>
             <ul
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
@@ -28,9 +33,9 @@ const NavBar = () => {
             </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl ">
+          {/* <a className="btn btn-ghost text-2xl ">
           
-            </a>
+            </a> */}
             <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA]
              bg-clip-text text-transparent">DigiTools</span>
         </div>

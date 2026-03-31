@@ -3,11 +3,11 @@ import React from "react";
 const TransformSection = () => {
   return (
     <div
-      className="flex justify-evenly px-50 py-15
+      className=" mt-10 flex justify-evenly px-6  md:px-50 md:py-15
         bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white
         "
     >
-      <div className="px-50 py-30">
+      <div className="p-10 md:px-50 py-30">
         <div className=" flex flex-col text-center space-y-4">
           <h1 className="font-bold text-[48px]">
             Ready to Transform Your Workflow?

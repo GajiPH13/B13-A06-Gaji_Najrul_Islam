@@ -12,7 +12,7 @@ const SelectProducts = ({ toolsPromis}) => {
 
   //console.log(toolsData)
   return (
-    <div className="px-50 py-30">
+    <div className=" px-10  md:px-50 py-30">
       <div className=" flex flex-col text-center space-y-4">
         <h1 className="font-bold text-[48px] text-[#101727]">
           Premium Digital Tools
