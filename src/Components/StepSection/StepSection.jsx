@@ -17,7 +17,7 @@ const StepSection = () => {
 
         <div className="grid grid-col-1 md:grid-cols-3 gap-2">
           <div
-            className="bg-white relative mt-10 px-6 py-20 max-w-[550px] h-[#380px] rounded-2xl 
+            className="bg-white relative mt-10 px-6 py-20 max-w-137.5 h-[#380px] rounded-2xl 
             border border-gray-100 shadow-2xs"
           >
             <div className="  flex flex-col justify-center items-center">
@@ -37,7 +37,7 @@ const StepSection = () => {
             </div>
           </div>
           <div
-            className="bg-white relative mt-10 px-6 py-20 max-w-[550px] h-[#380px] rounded-2xl 
+            className="bg-white relative mt-10 px-6 py-20 max-w-137.5 h-[#380px] rounded-2xl 
             border border-gray-100 shadow-2xs"
           >
             <div className="  flex flex-col justify-center items-center">
@@ -58,7 +58,7 @@ const StepSection = () => {
             <div></div>
           </div>
           <div
-            className="bg-white relative mt-10 px-6 py-20 max-w-[550px] h-[#380px] rounded-2xl 
+            className="bg-white relative mt-10 px-6 py-20 max-w-137.5 h-[#380px] rounded-2xl 
             border border-gray-100 shadow-2xs"
           >
             <div className="  flex flex-col justify-center items-center">
