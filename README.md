@@ -55,7 +55,8 @@ It provides a smooth user experience where users can browse services, manage a c
 - Flexible and easy to update  
 
 ### 📱 Fully Responsive
-- Works on mobile, tablet, and desktop  
+- Works on mobile, tablet, and desktop
+- On small devices, a hamburger icon appears on the left side of the navigation bar.  
 - Smooth UI across all devices  
 
 ### 🔔 Interactive Notifications
