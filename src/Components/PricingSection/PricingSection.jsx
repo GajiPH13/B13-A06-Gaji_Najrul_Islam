@@ -54,7 +54,7 @@ const PricingSection = () => {
           className=" relative h-auto mb-1 p-6 text-left text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
                     border border-gray-200 shadow-md rounded-2xl space-y-6"
         >
-          <div className=" absolute ml-70 lg:ml-25 -mt-10 badge text-[#BB4D00] bg-[#FEF3C6]">
+          <div className=" absolute md:ml-70 lg:ml-25 -mt-10 badge text-[#BB4D00] bg-[#FEF3C6]">
             <span >Most Popular</span>
           </div>
           <div className="space-y-2">
