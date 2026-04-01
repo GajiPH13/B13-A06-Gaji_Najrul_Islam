@@ -1,18 +1,21 @@
-# React + Vite
+=> Name of The Project : DIGITOOLS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=> This project is a part of the Assignnment-06. Which is about to a website for Digital Services. The page is fully responsive accros devices.
 
-Currently, two official plugins are available:
+=> Following Technology is being used
+        React.js
+        Tailwind CSS, DaisyUI
+        JavaScript (ES6+)
+        React-Toastify (NPM Package)
+        JSON (for product data)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+=> Features of the Project
+    => One page Website with React Component base.
 
-## React Compiler
+    => It has the functionality to add the products to cart and remove if nessesary.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    => Fetch the card dynamicaly through the JSON data.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-hallo
+    # 🚀 DIGITOOLS
+## 🛠️ Tech Stack
+## ✨ Features
