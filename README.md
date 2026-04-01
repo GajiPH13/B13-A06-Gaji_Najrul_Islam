@@ -55,7 +55,8 @@ It provides a smooth user experience where users can browse services, manage a c
 - Flexible and easy to update  
 
 ### 📱 Fully Responsive
-- Works on mobile, tablet, and desktop  
+- Works on mobile, tablet, and desktop
+- On small devices, a hamburger icon appears on the left side of the navigation bar.  
 - Smooth UI across all devices  
 
 ### 🔔 Interactive Notifications
@@ -75,16 +76,16 @@ DIGITOOLS/
 
 ## :rocket:Getting Started
 Follow these steps to run the project locally:
- Clone the repository
+ # Clone the repository
 git clone https://github.com/GajiPH13/B13-A06-Gaji_Najrul_Islam.git
 
-Navigate to the project folder
+# Navigate to the project folder
 cd digitools
 
- Install dependencies
+ # Install dependencies
 npm install
 
- Run the development server
+# Run the development server
 npm run dev
 
 ## 🚧 Future Improvements
