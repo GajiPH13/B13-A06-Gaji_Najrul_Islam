@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <div>
             <div className="navbar fixed top-0 left-0 w-full z-50 
-            bg-base-100 shadow-md px-4  md:px-12 lg:px-52 py-4">
+            bg-base-100 shadow-md pl-4 pr-10  md:px-12 lg:px-52 py-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} roll="button" 

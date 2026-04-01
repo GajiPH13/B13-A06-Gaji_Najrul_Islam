@@ -101,7 +101,7 @@ const Footer = () => {
               </div>
               <div className="">
                 <h3 className="text-white font-semibold mb-6 ">Social Links</h3>
-                <div className="flex gap-2">
+                <div className="flex flex-col lg:flex-row gap-2">
                   <div className="flex justify-center items-center w-10 h-10 rounded-full bg-white">
                   <a href="#" className="hover:text-purple-500 transition-colors"><TiSocialInstagram /></a>
                 </div>
@@ -119,7 +119,9 @@ const Footer = () => {
           
 
           {/* Bottom Bar */}
-          <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
+          <div className="mt-16 pt-8 border-t
+           border-zinc-800 
+           flex flex-col gap-4 md:flex-row items-center justify-between md:gap-4 text-sm text-zinc-500">
             <div>
               © {new Date().getFullYear()} Digitools. All rights reserved.
             </div>

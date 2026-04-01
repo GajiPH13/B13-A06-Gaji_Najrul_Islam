@@ -6,7 +6,7 @@ import PlayIcon from "../../assets/heroPlay.png";
 const HeroBanner = () => {
   return (
     <div
-      className="px-4 pt-30 pb-15 sm:flex sm:justify-center sm:items-center sm:gap-3  md:flex justify-evenly items-center md:gap-15 md:px-50  "
+      className="px-4 pt-30 pb-15 sm:flex sm:justify-center sm:items-center sm:gap-3  lg:flex justify-evenly items-center lg:gap-15 lg:px-50  "
     >
       <div className="space-y-5">
         <div
@@ -31,7 +31,7 @@ const HeroBanner = () => {
           software—all in one place. Start creating faster today.
         </p>
         <p> ExploreProducts</p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 mb-10">
           <button className="btn rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
             Explore Products
           </button>

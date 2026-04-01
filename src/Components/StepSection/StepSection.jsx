@@ -5,7 +5,7 @@ import Roket from "../../assets/rocket.png";
 const StepSection = () => {
   return (
     <div>
-      <div className="text-center  mx-auto bg-[#F9FAFC] px-6   md:px-50 md:py-30  ">
+      <div className="text-center  mx-auto bg-[#F9FAFC] px-6 py-1o  lg:px-50 lg:py-30  ">
         <div className="space-y-4 mb-10">
           <h2 className="font-bold text-[#101727] text-3xl">
             Get Started in 3 Steps
@@ -15,9 +15,9 @@ const StepSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-col-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-col-1 lg:grid-cols-3 gap-2">
           <div
-            className="bg-white relative mt-10 px-6 py-20 max-w-137.5 h-[#380px] rounded-2xl 
+            className="bg-white relative mt-10 px-6 py-10 max-w-[#380px] h-[#380px] rounded-2xl 
             border border-gray-100 shadow-2xs"
           >
             <div className="  flex flex-col justify-center items-center">
@@ -37,7 +37,7 @@ const StepSection = () => {
             </div>
           </div>
           <div
-            className="bg-white relative mt-10 px-6 py-20 max-w-137.5 h-[#380px] rounded-2xl 
+            className="bg-white relative mt-10 px-6 py-20 max-w-[#380px] h-[#380px] rounded-2xl 
             border border-gray-100 shadow-2xs"
           >
             <div className="  flex flex-col justify-center items-center">
@@ -58,7 +58,7 @@ const StepSection = () => {
             <div></div>
           </div>
           <div
-            className="bg-white relative mt-10 px-6 py-20 max-w-137.5 h-[#380px] rounded-2xl 
+            className="bg-white relative mt-10 px-6 py-20 max-w-[#380px] h-[#380px] rounded-2xl 
             border border-gray-100 shadow-2xs"
           >
             <div className="  flex flex-col justify-center items-center">
