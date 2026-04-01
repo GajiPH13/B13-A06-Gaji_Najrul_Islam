@@ -1,21 +1,97 @@
-=> Name of The Project : DIGITOOLS
+# :rocket: DIGITOOLS
+## :wrench: Tech Stack
+## :sparkles: Features
+## :star: Show Your Support
 
-=> This project is a part of the Assignnment-06. Which is about to a website for Digital Services. The page is fully responsive accros devices.
+# 🚀 DIGITOOLS  
+### 🌐 Modern Digital Services Web App
 
-=> Following Technology is being used
-        React.js
-        Tailwind CSS, DaisyUI
-        JavaScript (ES6+)
-        React-Toastify (NPM Package)
-        JSON (for product data)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3-38B2AC?logo=tailwind-css" />
+  <img src="https://img.shields.io/badge/DaisyUI-UI-green" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/Status-Completed-success" />
+</p>
 
-=> Features of the Project
-    => One page Website with React Component base.
+---
 
-    => It has the functionality to add the products to cart and remove if nessesary.
+## ✨ Overview
 
-    => Fetch the card dynamicaly through the JSON data.
+**DIGITOOLS** is a modern, responsive **Digital Services platform** built with React.  
+It provides a smooth user experience where users can browse services, manage a cart, and interact with dynamic content.
 
-    # 🚀 DIGITOOLS
+---
+
+## 🖥️ Live Demo
+
+  
+
+[Visit Website](https://digitools-gaji-najrul-islam.netlify.app/)
+
+---
+
 ## 🛠️ Tech Stack
-## ✨ Features
+
+- ⚛️ React.js (Component-based architecture)  
+- 🎨 Tailwind CSS (Utility-first styling)  
+- 🌼 DaisyUI (Pre-designed UI components)  
+- 🧠 JavaScript ES6+ (Logic & interactivity)  
+- 🔔 React-Toastify (Notifications)  
+- 📦 JSON (Dynamic data source)  
+
+---
+
+## 🔥 Key Features
+
+### 🧩 Component-Based Design
+- Clean and reusable React components  
+- Easy to maintain and scale  
+
+### 🛒 Smart Cart System
+- Add products to cart  
+- Remove items instantly  
+- Real-time updates  
+
+### 🔄 Dynamic Data Handling
+- Products loaded from JSON  
+- Flexible and easy to update  
+
+### 📱 Fully Responsive
+- Works on mobile, tablet, and desktop  
+- Smooth UI across all devices  
+
+### 🔔 Interactive Notifications
+- Toast alerts for user actions  
+
+---
+
+## 📂 Project Structure
+DIGITOOLS/
+│── public/
+│── src/
+│   ├── components/
+│   ├── data/
+│   ├── App.jsx
+│   └── main.jsx
+│── package.json
+
+## :rocket:Getting Started
+Follow these steps to run the project locally:
+# Clone the repository
+git clone https://github.com/GajiPH13/B13-A06-Gaji_Najrul_Islam.git
+
+# Navigate to the project folder
+cd digitools
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+🚧 Future Improvements
+🔐 Authentication system
+💳 Payment integration
+🌍 Backend API integration
+❤️ Wishlist feature
