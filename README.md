@@ -1,7 +1,7 @@
-# :rocket: DIGITOOLS
+<!-- # :rocket: DIGITOOLS
 ## :wrench: Tech Stack
 ## :sparkles: Features
-## :star: Show Your Support
+## :star: Show Your Support -->
 
 # 🚀 DIGITOOLS  
 ### 🌐 Modern Digital Services Web App
@@ -24,9 +24,6 @@ It provides a smooth user experience where users can browse services, manage a c
 ---
 
 ## 🖥️ Live Demo
-
-  
-
 [Visit Website](https://digitools-gaji-najrul-islam.netlify.app/)
 
 ---
@@ -78,20 +75,24 @@ DIGITOOLS/
 
 ## :rocket:Getting Started
 Follow these steps to run the project locally:
-# Clone the repository
+ Clone the repository
 git clone https://github.com/GajiPH13/B13-A06-Gaji_Najrul_Islam.git
 
-# Navigate to the project folder
+Navigate to the project folder
 cd digitools
 
-# Install dependencies
+ Install dependencies
 npm install
 
-# Run the development server
+ Run the development server
 npm run dev
 
-🚧 Future Improvements
-🔐 Authentication system
-💳 Payment integration
-🌍 Backend API integration
-❤️ Wishlist feature
+## 🚧 Future Improvements
+- 🔐 Authentication system
+- 💳 Payment integration
+- 🌍 Backend API integration
+- ❤️ Wishlist feature
+
+## 👨‍💻 Author
+
+Built with passion as part of a web development journey 🚀
