@@ -75,16 +75,16 @@ DIGITOOLS/
 
 ## :rocket:Getting Started
 Follow these steps to run the project locally:
- Clone the repository
+ # Clone the repository
 git clone https://github.com/GajiPH13/B13-A06-Gaji_Najrul_Islam.git
 
-Navigate to the project folder
+# Navigate to the project folder
 cd digitools
 
- Install dependencies
+ # Install dependencies
 npm install
 
- Run the development server
+# Run the development server
 npm run dev
 
 ## 🚧 Future Improvements
